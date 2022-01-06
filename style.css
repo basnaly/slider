@@ -1,0 +1,58 @@
+
+.background {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.carousel-slide {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: auto;
+    border: 5px solid yellow;
+    border-radius: 5px;
+ 
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item {
+    display: block;
+    left:-100%
+}
+
+.active.carousel-item {
+    left: 0;
+}
+
+
+.carousel-box {
+    overflow: hidden;
+}
+
+.picture {
+    
+    object-fit: fill;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: calc(50% - 25px);
+    font-size: 50px;
+    color: gray;
+} 
+
+.left.button{
+    left: -50px;
+}
+
+.right.button{
+    right: -50px;
+}
